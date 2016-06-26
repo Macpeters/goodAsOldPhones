@@ -14,6 +14,7 @@
 		04A4EE441D1CB72600F4EE8E /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4EE431D1CB72600F4EE8E /* ProductViewController.swift */; };
 		04A4EE461D1EAEB400F4EE8E /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4EE451D1EAEB400F4EE8E /* ContactViewController.swift */; };
 		04A4EE481D1EE76400F4EE8E /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4EE471D1EE76400F4EE8E /* ProductsTableViewController.swift */; };
+		04A4EE4A1D2064AA00F4EE8E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4EE491D2064AA00F4EE8E /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		04A4EE431D1CB72600F4EE8E /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		04A4EE451D1EAEB400F4EE8E /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		04A4EE471D1EE76400F4EE8E /* ProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
+		04A4EE491D2064AA00F4EE8E /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				04A4EE431D1CB72600F4EE8E /* ProductViewController.swift */,
 				04A4EE451D1EAEB400F4EE8E /* ContactViewController.swift */,
 				04A4EE471D1EE76400F4EE8E /* ProductsTableViewController.swift */,
+				04A4EE491D2064AA00F4EE8E /* Product.swift */,
 			);
 			path = GoodAsOldPhones;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				04A4EE441D1CB72600F4EE8E /* ProductViewController.swift in Sources */,
 				04A4EE481D1EE76400F4EE8E /* ProductsTableViewController.swift in Sources */,
+				04A4EE4A1D2064AA00F4EE8E /* Product.swift in Sources */,
 				04A4EE321D1CB07300F4EE8E /* AppDelegate.swift in Sources */,
 				04A4EE461D1EAEB400F4EE8E /* ContactViewController.swift in Sources */,
 			);
