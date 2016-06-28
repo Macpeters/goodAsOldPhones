@@ -24,18 +24,22 @@ class ProductsTableViewController: UITableViewController {
         product1.name = "1907 Wall Set"
         product1.productImage = "phone-fullscreen1"
         product1.cellImage = "image-cell1"
+        product1.price = 12.50
         
         product2.name = "1927 Dial Phone"
         product2.productImage = "phone-fullscreen2"
         product2.cellImage = "image-cell2"
+        product2.price = 52.99
         
         product3.name = "1937 Desk Set"
         product3.productImage = "phone-fullscreen3"
         product3.cellImage = "image-cell3"
+        product3.price = 29.95
         
         product4.name = "1984 Motorola Portable"
         product4.productImage = "phone-fullscreen4"
         product4.cellImage = "image-cell4"
+        product4.price = 19.11
         
         products = [product1, product2, product3, product4]
     }
