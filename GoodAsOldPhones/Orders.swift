@@ -10,6 +10,6 @@ import UIKit
 
 class Orders: NSObject {
     
-    var orders: [Order]
+    var orders: [Order]?
 
 }
