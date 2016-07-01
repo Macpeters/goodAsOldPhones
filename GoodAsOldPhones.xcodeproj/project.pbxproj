@@ -15,6 +15,9 @@
 		04A4EE461D1EAEB400F4EE8E /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4EE451D1EAEB400F4EE8E /* ContactViewController.swift */; };
 		04A4EE481D1EE76400F4EE8E /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4EE471D1EE76400F4EE8E /* ProductsTableViewController.swift */; };
 		04A4EE4A1D2064AA00F4EE8E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4EE491D2064AA00F4EE8E /* Product.swift */; };
+		04A4EE4E1D21EC5400F4EE8E /* CartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4EE4D1D21EC5400F4EE8E /* CartTableViewController.swift */; };
+		04A4EE501D21F46200F4EE8E /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4EE4F1D21F46200F4EE8E /* Orders.swift */; };
+		04A4EE521D21F48100F4EE8E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4EE511D21F48100F4EE8E /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		04A4EE451D1EAEB400F4EE8E /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		04A4EE471D1EE76400F4EE8E /* ProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
 		04A4EE491D2064AA00F4EE8E /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		04A4EE4D1D21EC5400F4EE8E /* CartTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTableViewController.swift; sourceTree = "<group>"; };
+		04A4EE4F1D21F46200F4EE8E /* Orders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
+		04A4EE511D21F48100F4EE8E /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +71,13 @@
 				04A4EE381D1CB07300F4EE8E /* Assets.xcassets */,
 				04A4EE3A1D1CB07300F4EE8E /* LaunchScreen.storyboard */,
 				04A4EE3D1D1CB07300F4EE8E /* Info.plist */,
-				04A4EE431D1CB72600F4EE8E /* ProductViewController.swift */,
+				04A4EE4D1D21EC5400F4EE8E /* CartTableViewController.swift */,
 				04A4EE451D1EAEB400F4EE8E /* ContactViewController.swift */,
+				04A4EE431D1CB72600F4EE8E /* ProductViewController.swift */,
 				04A4EE471D1EE76400F4EE8E /* ProductsTableViewController.swift */,
 				04A4EE491D2064AA00F4EE8E /* Product.swift */,
+				04A4EE4F1D21F46200F4EE8E /* Orders.swift */,
+				04A4EE511D21F48100F4EE8E /* Order.swift */,
 			);
 			path = GoodAsOldPhones;
 			sourceTree = "<group>";
@@ -145,6 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A4EE441D1CB72600F4EE8E /* ProductViewController.swift in Sources */,
+				04A4EE501D21F46200F4EE8E /* Orders.swift in Sources */,
+				04A4EE521D21F48100F4EE8E /* Order.swift in Sources */,
+				04A4EE4E1D21EC5400F4EE8E /* CartTableViewController.swift in Sources */,
 				04A4EE481D1EE76400F4EE8E /* ProductsTableViewController.swift in Sources */,
 				04A4EE4A1D2064AA00F4EE8E /* Product.swift in Sources */,
 				04A4EE321D1CB07300F4EE8E /* AppDelegate.swift in Sources */,

@@ -29,7 +29,32 @@ class ProductViewController: UIViewController {
     }
 
     @IBAction func addToCartPressed(sender: AnyObject) {
-        print("Button Tapped")
+        
+        guard let product = product, let name = product.name, let price = product.price else {
+            return
+        }
+        
+        //create an order
+        let order = Order()
+        order.product = product
+        
+        //get existing orders
+        var ordersInCart = Orders.readOrdersFromArchive()
+        if(ordersInCart == nil) {
+            ordersInCart = []
+        }
+        
+        //save this order to disk
+         ordersInCart?.append(order)
+        if let orders = ordersInCart {
+            Orders.saveOrdersToArchive(orders)
+        }
+        
+        //show a message
+        let alertController = UIAlertController(title: "Added To Cart", message: "You added \(name) to the cart for $\(price)", preferredStyle: UIAlertControllerStyle.Alert)
+        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+        
+        presentViewController(alertController, animated: true, completion: nil)
     }
 
 }
